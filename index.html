@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<style>
+		body {
+			background-color: black;
+		}
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		li {
+			float: left;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover {
+			background-color: #111;
+		}
+
+		.active {
+			background-color: #4CAF50;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a class="active" href="#about">About Me</a></li>
+		<li><a href="#blogs">Blogs</a></li>
+	</ul>
+
+	<div id="about">
+		<h1>About Me</h1>
+		<p>This is where you can write a short description about yourself.</p>
+	</div>
+
+	<div id="blogs">
+		<h1>Blogs</h1>
+		<p>Here is where you can write about your blog posts.</p>
+	</div>
+</body>
+</html>
